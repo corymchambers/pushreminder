@@ -1,4 +1,4 @@
-package com.anonymous.pushreminder
+package com.corymchambers.pushreminder
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

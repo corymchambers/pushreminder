@@ -28,7 +28,7 @@
         <key>CFBundleURLSchemes</key>
         <array>
           <string>pushreminder</string>
-          <string>com.anonymous.pushreminder</string>
+          <string>com.corymchambers.pushreminder</string>
         </array>
       </dict>
       <dict>

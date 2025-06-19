@@ -1,4 +1,4 @@
-package com.anonymous.pushreminder
+package com.corymchambers.pushreminder
 
 import android.app.Application
 import android.content.res.Configuration

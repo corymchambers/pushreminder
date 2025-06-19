@@ -10,7 +10,8 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.pushreminder"
+      "bundleIdentifier": "com.corymchambers.pushreminder",
+      "appleTeamId": "D8DX35HW6N"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +19,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.pushreminder"
+      "package": "com.corymchambers.pushreminder"
     },
     "web": {
       "bundler": "metro",
@@ -27,6 +28,7 @@
     },
     "plugins": [
       "expo-router",
+      "expo-notifications",
       [
         "expo-splash-screen",
         {
@@ -39,6 +41,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "326c61bc-9623-4883-977a-5fc614c925b1"
+      }
+    },
+    "owner": "corymchambers1"
   }
 }

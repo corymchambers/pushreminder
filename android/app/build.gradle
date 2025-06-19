@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.pushreminder'
+    namespace 'com.corymchambers.pushreminder'
     defaultConfig {
-        applicationId 'com.anonymous.pushreminder'
+        applicationId 'com.corymchambers.pushreminder'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
